@@ -10,6 +10,7 @@ export interface Spec extends TurboModule {
   initiateLogin(): Promise<{
     status: string;
     redirectUri?: string;
+    codeVerifier?: string;
     error?: string;
   }>;
 }

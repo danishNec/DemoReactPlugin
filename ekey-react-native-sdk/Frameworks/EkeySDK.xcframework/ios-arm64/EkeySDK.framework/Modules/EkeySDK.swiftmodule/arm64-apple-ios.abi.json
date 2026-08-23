@@ -52,12 +52,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(EkeySDK.EkeyLoginResult.Type) -> (Foundation.URL) -> EkeySDK.EkeyLoginResult",
+                "printedName": "(EkeySDK.EkeyLoginResult.Type) -> (Foundation.URL, Swift.String) -> EkeySDK.EkeyLoginResult",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL) -> EkeySDK.EkeyLoginResult",
+                    "printedName": "(Foundation.URL, Swift.String) -> EkeySDK.EkeyLoginResult",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -68,13 +68,19 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(redirectURL: Foundation.URL)",
+                        "printedName": "(redirectURL: Foundation.URL, codeVerifier: Swift.String)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "URL",
                             "printedName": "Foundation.URL",
                             "usr": "s:10Foundation3URLV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
                         ]
                       }
@@ -97,8 +103,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:7EkeySDK0A11LoginResultO9completedyAC10Foundation3URLV_tcACmF",
-            "mangledName": "$s7EkeySDK0A11LoginResultO9completedyAC10Foundation3URLV_tcACmF",
+            "usr": "s:7EkeySDK0A11LoginResultO9completedyAC10Foundation3URLV_SStcACmF",
+            "mangledName": "$s7EkeySDK0A11LoginResultO9completedyAC10Foundation3URLV_SStcACmF",
             "moduleName": "EkeySDK",
             "declAttributes": [
               "RawDocComment"
@@ -707,83 +713,83 @@
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
       "offset": 314,
-      "length": 41,
-      "value": "\"https:\/\/login.test.ekey-b.com\/oidc\/auth\""
+      "length": 33,
+      "value": "\"https:\/\/login.ekey.bh\/oidc\/auth\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 374,
       "length": 23,
-      "value": "\"iZ4lBvruWxmSYqSWw-Wcf\""
+      "value": "\"ugiTHWoHreu2j8nACiBQV\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 435,
-      "length": 72,
-      "value": "\"https:\/\/mobileapp.uat.necremit.com\/RedirectURIC\/WS_MobileAPICALLS.asmx\""
+      "offset": 427,
+      "length": 61,
+      "value": "\"https:\/\/mobileapp.necremit.com\/beyon\/WS_MobileAPICALLS.asmx\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 512,
       "length": 72,
       "value": "\"openid id-* id-*-additional id-*-photo ekyc-bhr-name ekyc-bhr-address \""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 595,
       "length": 75,
       "value": "\"ekyc-bhr-birth ekyc-bhr-nationality ekyc-bhr-contact ekyc-bhr-employment \""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 700,
+      "offset": 681,
       "length": 73,
       "value": "\"ekyc-bhr-passport ekyc-bhr-resident ekyc-bhr-photo ekyc-bhr-disability \""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 765,
       "length": 31,
       "value": "\"liveness_proof liveness_photo\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 830,
       "length": 9,
       "value": "\"necekey\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 866,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 885,
       "length": 1,
       "value": "\":\/\/callback\""
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyLoginConfig.swift",
       "kind": "Array",
-      "offset": 1184,
-      "length": 40,
-      "value": "[\"app.ekey.bh\", \"tools.test.ekey-b.com\"]"
+      "offset": 1165,
+      "length": 35,
+      "value": "[\"app.ekey.bh\", \"tools.ekey-b.com\"]"
     },
     {
       "filePath": "\/Users\/syeddanish\/Desktop\/NEC Job\/EkeyExampleSDK\/EkeySDK\/Sources\/EkeySDK\/EkeyWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 264,
+      "offset": 272,
       "length": 5,
       "value": "false"
     }

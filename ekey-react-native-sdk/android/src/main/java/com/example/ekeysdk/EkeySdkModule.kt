@@ -23,6 +23,7 @@ class EkeySdkModule(reactContext: ReactApplicationContext) : NativeEkeySdkSpec(r
                 is EkeyLoginResult.Completed -> {
                     map.putString("status", "completed")
                     map.putString("redirectUri", result.redirectUri.toString())
+                    map.putString("codeVerifier", result.codeVerifier)
                 }
                 EkeyLoginResult.Cancelled -> {
                     map.putString("status", "cancelled")
