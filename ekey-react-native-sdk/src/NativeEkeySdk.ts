@@ -11,6 +11,8 @@ export interface Spec extends TurboModule {
     status: string;
     redirectUri?: string;
     codeVerifier?: string;
+    claims?: Object;
+    kycData?: Object;
     error?: string;
   }>;
 }

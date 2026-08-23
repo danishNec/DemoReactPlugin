@@ -23,11 +23,13 @@ public final class EkeySdkImpl: NSObject {
 
             Ekey.shared.initiateLogin(from: presenter) { result in
                 switch result {
-                case .completed(let redirectURL, let codeVerifier):
+                case .completed(let redirectURL, let codeVerifier, let identity):
                     resolve([
                         "status": "completed",
                         "redirectUri": redirectURL.absoluteString,
                         "codeVerifier": codeVerifier,
+                        "claims": identity.claims,
+                        "kycData": identity.kycData as Any,
                     ])
                 case .cancelled:
                     resolve(["status": "cancelled"])
